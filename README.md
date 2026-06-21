@@ -1,89 +1,87 @@
-Hi, I'm Rythm Sachdeva 👋 
+# Hi, I'm Rythm Sachdeva 👋
 
-I am a Full Stack Developer currently building high-throughput systems at IndiGo Airlines. I hold a Bachelor of Technology in Mathematics & Computing from Delhi Technological University.
+### Full Stack Developer @ IndiGo Airlines | B.Tech in Mathematics & Computing, DTU
 
-🛠️ Technical Skills 
+I build high-throughput systems and full-stack applications — currently shipping production code for IndiGo's D2C booking platform, and contributing to open-source projects like Apache Iggy.
 
-* 
-**Languages:** Javascript, Python, Java, C++, HTML/CSS, SQL, Rust 
+[**LinkedIn**](https://www.linkedin.com/in/rythm-sachdeva/) • [**Portfolio**](https://personal-portfolio-rouge-mu.vercel.app/) • [**Email**](mailto:rythmsachdeva049@gmail.com)
 
+---
 
-* 
-**Frameworks & Libraries:** ReactJS, React-Native, Next.JS, Django, TailwindCSS, Tensorflow, Kafka, Docker, Kubernetes 
+### 🛠️ Tech Stack
 
+**Languages:** JavaScript, Python, Java, C++, Rust, SQL, HTML/CSS
 
-* 
-**Tools:** Github/Git, Postman 
+**Frameworks & Libraries:** React, React Native, Next.js, Django, TailwindCSS, TensorFlow, Kafka, Docker, Kubernetes
 
+**Tools:** Git, GitHub, Postman
 
+---
 
-🚀 Featured Projects & Open Source 
+### 💼 Experience
 
-Apache Iggy (Open Source Contribution) 
+**Full Stack Developer — IndiGo Airlines**
+*July 2025 – Present | New Delhi, India*
 
-* Replaced a single-channel TCP transport with a FixedChannelPool to enable concurrent request handling and significantly improve throughput for the Java SDK's async TCP client.
+- Architected and developed a high-throughput REST API for the primary booking widget, processing **500+ requests/minute** and powering D2C ticket sales.
+- Drove a **20% increase** in marketing campaign click-through rates by engineering a behavioral segmentation framework for **200,000+ users**.
+- Spearheading an Agentic AI pipeline using **RAG (Retrieval-Augmented Generation)**, cutting manual query resolution time by an estimated **30%**.
 
+---
 
-* Designed a `PoolMetrics` class to track active connections, total requests, errors, and wait times.
+### 🚀 Featured Projects
 
+#### 🔧 [Apache Iggy](#) — Open Source Contribution
+`Java` `Netty` `Concurrent Programming`
 
-* Implemented FIFO queue-based request/response correlation to ensure correct ordering of async responses across pooled connections.
+Improved the Java SDK's async TCP client by replacing a single-channel transport with a pooled, concurrent architecture.
 
+- Replaced single-channel TCP transport with a `FixedChannelPool` for concurrent request handling, significantly boosting throughput.
+- Built a `PoolMetrics` class tracking active connections, request/error counts, error rates, and wait times (ns/µs/ms).
+- Introduced `TCPConnectionPoolConfig` with a builder pattern for configurable max connections, pending acquires, and timeouts.
+- Implemented FIFO queue-based request/response correlation via `ConcurrentLinkedQueue` for correct async ordering.
+- Added `broadcastAsync()` to execute commands across all pooled connections simultaneously (e.g., cluster-wide auth).
 
-* Added a `broadcastAsync()` method to execute commands across all pooled connections simultaneously for use cases like cluster-wide authentication.
+#### 🎧 Rhythms — [Live Demo](https://rhythms-one.vercel.app/)
+`TypeScript` `Next.js` `TailwindCSS` `Gemini SDK` `PostgreSQL` `Prisma`
 
+A full-stack, AI-powered DJ application for collaborative, audience-driven music control.
 
+- Built a responsive full-stack app with Next.js, Tailwind CSS, and a PostgreSQL/Prisma data layer.
+- Integrated the **Google Gemini SDK** to power a generative AI playlist engine — turning natural language into structured song metadata.
+- Implemented real-time collaborative voting so live audiences can control the music queue together.
+- Used HTTP connection pooling to keep the app scalable and responsive under heavy load.
 
-Rhythms 
+#### ⚙️ [AutoD](https://github.com/rythm-sachdeva/AutoD)
+`TypeScript` `Node.js` `Next.js` `Kafka` `PostgreSQL`
 
-* Engineered a full-stack DJ application using Next.js, Tailwind CSS, PostgreSQL, and Prisma.
+A Zapier-style workflow automation platform built on a decoupled microservices architecture.
 
+- Designed an event-driven system with independent **Hooks**, **Processor**, and **Worker** services communicating via Kafka.
+- Implemented the **Transactional Outbox Pattern** for guaranteed, at-least-once message delivery between Postgres and Kafka.
+- Built the user-facing service with Next.js and a Node.js/TypeScript backend for defining webhook-triggered, multi-step workflows.
 
-* Integrated the Google Gemini SDK to build a generative AI playlist engine that converts natural language queries into structured song curation metadata.
+---
 
+### 🎓 Education
 
-* Implemented a dynamic, real-time voting system that allows live audiences to collaboratively control the music queue.
+**Delhi Technological University** — B.Tech, Mathematics & Computing
+*Sep 2021 – May 2025 | CGPA: 8.4/10*
 
+Relevant coursework: Data Structures, Machine Learning, Systems Programming, Software Methodology, Database Management, Statistics, Artificial Intelligence, Algorithm Analysis, Linear Algebra.
 
-* Ensured application scalability and responsiveness under heavy use by implementing HTTP connection pooling.
+---
 
+### 🎤 Leadership
 
+**Indian Music Head — College Music Society**
+*July 2023 – 2024*
 
-AutoD 
+Directed a 50-member choir, leading weekly rehearsals, vocal training, and repertoire selection for semester-end performances.
 
-* Architected a full-stack, Zapier-like workflow automation platform using a decoupled microservices architecture.
+---
 
+### 📫 Let's Connect
 
-* Built the primary user-facing service with Next.js and a Node.js/TypeScript backend, allowing users to define complex automation workflows triggered by webhooks.
-
-
-* Implemented the Transactional Outbox Pattern to guarantee reliable, at-least-once message delivery between the PostgreSQL database and the Kafka event stream.
-
-
-* Designed an event-driven system with distinct services (Hooks, Processor, Worker) communicating asynchronously via Kafka.
-
-
-
-💼 Experience 
-
-Full Stack Developer @ IndiGo Airlines 
-
-July 2025 - Present | New Delhi, Delhi 
-
-* Architected and developed a high-throughput REST API for the primary booking widget, processing over 500 requests per minute and enabling D2C platform ticket sales.
-
-
-* Drove a 20% increase in click-through rates for marketing campaigns by engineering a behavioral segmentation framework for over 200,000 users.
-
-
-* Spearheading the development of an Agentic AI pipeline using a Retrieval-Augmented Generation (RAG) model to empower support teams and reduce manual query resolution time by an estimated 30%.
-
-
-
-## 📫 Let's Connect
-
-* 
-**Email:** rythmsachdeva049@gmail.com 
-
-
-* **Links:** LinkedIn | GitHub | Portfolio
+**Email:** rythmsachdeva049@gmail.com
+**Links:** [**LinkedIn**](https://www.linkedin.com/in/rythm-sachdeva/) • [**Portfolio**](https://personal-portfolio-rouge-mu.vercel.app/) • [**Email**](mailto:rythmsachdeva049@gmail.com)
